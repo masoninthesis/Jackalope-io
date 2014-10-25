@@ -3,20 +3,50 @@
 /****************************/
 
 .navbar-default {
-  background-color: #fff;
-  height: 60px;
+  background-color: @gray-darker;
 }
 
 .navbar-nav {
   float: right;
-  margin-top: 4px;
+  margin-top: 0px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: #fff;
-  color: @brand-secondary;
+  background-color: @gray-darker;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
   color: @brand-primary;
+}
+
+.navbar-brand img:hover { 
+	opacity: .8;
+}
+
+/* Hamburger */
+
+.navbar-toggle {
+	margin-top: 10px;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: @brand-primary;
+}
+
+.navbar-brand {
+	padding: 6px 40px;
+	margin-top: 4px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: @gray-dark;
+}
+
+.navbar-default .navbar-collapse {
+	border: none;
 }

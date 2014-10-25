@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jackalope_dark.png" alt="<?php bloginfo('name'); ?>" width="30" height="30" /></a>
+      <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/jackalope_light.png" alt="<?php bloginfo('name'); ?>" width="30" height="30" /></a>
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
