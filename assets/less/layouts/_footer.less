@@ -1,21 +1,23 @@
 footer { 
-
+	
+	padding-bottom: 164px;
+	
+	@media (min-width: @screen-xs-min) {
+			  padding-bottom: 32px;
+		  }	
+	
 	.upper-col {
 		background-color: @gray-darker;
+	}
+	
+	.row .col-sm-5 {
+		padding-top: 40px;
 	}
 	
 	.bracket {
 		padding-top: 40px;
 	}
-	
-	img {
-		display: none;
 		
-		  @media (min-width: @screen-sm-min) {
-			  display: inherit;
-		  }
-	}
-	
 	.bottom-opt {
 		text-align: center;
 		padding: 80px 42px;

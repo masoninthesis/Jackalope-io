@@ -30,35 +30,36 @@
   		<div class="col-xs-12 text-center">
 	      <a href="//fast.wistia.net/embed/iframe/va8o82dilx?popover=true" class="wistia-popover[height=360,playerColor=ffffff,width=640]"><img src="https://embed-ssl.wistia.com/deliveries/b1d475a810d5c1b174c980e1e3ee033985c16c7a.jpg?image_play_button=true&image_play_button_color=ffffffe0&image_crop_resized=150x84" alt="" /></a>
 	      <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
-	  	    <h1>We build sexy Wordpress sites that are <span class="damn-fast">damn fast</span>.</h1>
-	  	  <button href="#" type="button" type="button" class="btn btn-lg btn-primary hero-btn" data-toggle="modal" data-target="#myModal">Let's build something!</button>
+	  	    <h1>We build sexy Wordpress sites that are <span class="highlight">damn fast</span>.</h1>
+	  	    <h3>Either we'll do it for you, or we'll teach you how.</h2>
+	  	  <button href="#" type="button" type="button" class="btn btn-lg btn-primary hero-btn" data-toggle="modal" data-target="#myModal">Custom themes<i class="glyphicon glyphicon-chevron-down"></i></button>
   		</div>
   	</div> <!-- /Video -->
   </section>
   
   <hr class="half-rule">
-  	<h4 class="pick-site">Pick a site:</h4>
+  	<h4 class="pick-site">Pick one:</h4>
   
   <section class="products">
 	  <div class="row">
 		  <div class="col-sm-4 col-xs-12 text-center">
 			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/G-Strap.png" class="img-responsive" alt="G-Strap" width="313" height="178" />
 			  <h3>G-String</h3>
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			  <p>G-String is our bad bitch. Beginners will love all of her widgets because they make her so easy to manipulate. You won't need to use much PHP, and most of the customization will take place in her visual editor. Her only downfall is that she's <a href="http://jackalope.io/g-string/" alt="g-string theme">harder to backup.</a></p>
 			  <button type="submit" class="btn btn-lg btn-primary">Select<i class="glyphicon glyphicon-chevron-right"></i></button>
 			  <p class="post-btn">Starting @ $199</p>
 		  </div>
 		  <div class="col-sm-4 col-xs-12 text-center">
 			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Nudist.png" class="img-responsive" alt="Nudist" width="313" height="178" />
 			  <h3>Nudist</h3>
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			  <p>Nudist doesn't fuck around. When he's first installed, he looks completely naked. But don't underestimate him. Once he's all greased up he transforms into the most powerful Wordpress theme on earth. Nudist is beginner friendly, but not for the faint of heart.</p>
 			  <button type="submit" class="btn btn-lg btn-primary">Select<i class="glyphicon glyphicon-chevron-right"></i></button>
 			  <p class="post-btn">Starting @ $249</p>
 		  </div>
 		  <div class="col-sm-4 col-xs-12 text-center">
 			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Custom.png" class="img-responsive" alt="Custom" width="313" height="178" />
 			  <h3>Custom</h3>
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			  <p>Don't have the time to learn Wordpress development and web design? Our agency will take care of you over at <a href="http://jackalopeMedia.com/" alt="Jackalope Media">JackalopeMedia.com</a>. We build long term relationships with badass business people so we can align our expectations and thrive.</p>
 			  <button type="submit" class="btn btn-lg btn-primary">Select<i class="glyphicon glyphicon-chevron-right"></i></button>
 			  <br><a class="view-examples" href="#">View examples</a>
 		  </div>

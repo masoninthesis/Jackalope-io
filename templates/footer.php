@@ -9,7 +9,7 @@
 					</center>
 				</div> <!-- /Video -->
 				<div class="col-sm-1">
-					<img class="bracket" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bracket.png" alt="bracket" width="60" height="272" />
+					<img class="bracket mobile-hidden" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bracket.png" alt="bracket" width="60" height="272" />
 				</div>
 				<div class="col-sm-6"><!-- Optin -->
 					<div class="bottom-opt">

@@ -1,3 +1,25 @@
+.btn:hover {
+	color: @gray-lighter;
+}
+
+.hero { 
+	.btn {
+		width: 224px;
+		margin-bottom: 10px;
+		margin: 40px 0;
+		
+		@media (min-width: @screen-sm-min) {
+			  width: 284px;
+		  }
+	}
+	i {
+		float: right;
+		padding-right: 6px;
+		margin-left: -18px;
+	}
+} 
+
+
 .btn-secondary {
 	background-color: @brand-secondary;
 	color: #fff;
@@ -7,6 +29,7 @@
 	.btn {
 		width: 80%;
 		margin-bottom: 10px;
+		margin: 40px 0;
 	}
 	i {
 		float: right;
