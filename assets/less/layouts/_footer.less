@@ -11,7 +11,7 @@ footer {
 	}
 	
 	.row .col-sm-5 {
-		padding-top: 40px;
+		padding: 40px 0;
 	}
 	
 	.bracket {
@@ -19,15 +19,16 @@ footer {
 	}
 		
 	.bottom-opt {
-		text-align: center;
 		padding: 80px 42px;
-		
-		@media (min-width: @screen-sm-min) {
-			  text-align: left;
-		  }		
 			
-		h2 {
+		h2, h4 {
 			color: #fff;
+			text-align: center;
+			
+					
+			@media (min-width: @screen-sm-min) {
+				  text-align: left;
+			  }		
 			}
 			
 		form {

@@ -46,21 +46,21 @@
 			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/G-Strap.png" class="img-responsive" alt="G-Strap" width="313" height="178" />
 			  <h3>G-String</h3>
 			  <p>G-String is our bad bitch. Beginners will love all of her widgets because they make her so easy to manipulate. You won't need to use much PHP, and most of the customization will take place in her visual editor. Her only downfall is that she's <a href="http://jackalope.io/g-string/" alt="g-string theme">harder to backup.</a></p>
-			  <button type="submit" class="btn btn-lg btn-primary">Select<i class="glyphicon glyphicon-chevron-right"></i></button>
+			  <a href="<?php echo esc_url(home_url('/')); ?>g-string/" class="btn btn-lg btn-primary">Demo<i class="glyphicon glyphicon-chevron-right"></i></a>
 			  <p class="post-btn">Starting @ $199</p>
 		  </div>
 		  <div class="col-sm-4 col-xs-12 text-center">
 			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Nudist.png" class="img-responsive" alt="Nudist" width="313" height="178" />
 			  <h3>Nudist</h3>
 			  <p>Nudist doesn't fuck around. When he's first installed, he looks completely naked. But don't underestimate him. Once he's all greased up he transforms into the most powerful Wordpress theme on earth. Nudist is beginner friendly, but not for the faint of heart.</p>
-			  <button type="submit" class="btn btn-lg btn-primary">Select<i class="glyphicon glyphicon-chevron-right"></i></button>
+			  <a href="<?php echo esc_url(home_url('/')); ?>nudist/" class="btn btn-lg btn-primary">Demo<i class="glyphicon glyphicon-chevron-right"></i></a>
 			  <p class="post-btn">Starting @ $249</p>
 		  </div>
 		  <div class="col-sm-4 col-xs-12 text-center">
 			  <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Custom.png" class="img-responsive" alt="Custom" width="313" height="178" />
 			  <h3>Custom</h3>
 			  <p>Don't have the time to learn Wordpress development and web design? Our agency will take care of you over at <a href="http://jackalopeMedia.com/" alt="Jackalope Media">JackalopeMedia.com</a>. We build long term relationships with badass business people so we can align our expectations and thrive.</p>
-			  <button type="submit" class="btn btn-lg btn-primary">Select<i class="glyphicon glyphicon-chevron-right"></i></button>
+			  <button type="submit" class="btn btn-lg btn-primary">Demo<i class="glyphicon glyphicon-chevron-right"></i></button>
 			  <br><a class="view-examples" href="#">View examples</a>
 		  </div>
 	  </div>

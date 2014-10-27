@@ -14,6 +14,7 @@
 				<div class="col-sm-6"><!-- Optin -->
 					<div class="bottom-opt">
 						<h2>Learn the way of the Jackalope.	</h2>
+						<h4>And get discounts and giveaways.</h4>
 						<!-- Mailchimp --><form class="form-inline" id="before_header" action="//jackalope.us9.list-manage.com/subscribe/post?u=74a8ddb6f1ff4b3eeb5966632&amp;id=fc7436b5de" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 						<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
 						<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-default footer-btn btn-md" type="submit" value="Submit" tabindex="501">Subscribe</button>
