@@ -32,7 +32,7 @@
 	      <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 	  	    <h1>We build sexy Wordpress sites that are <span class="highlight">damn fast</span>.</h1>
 	  	    <h3>Either we'll do it for you, or we'll teach you how.</h2>
-	  	  <button href="#" type="button" type="button" class="btn btn-lg btn-primary hero-btn" data-toggle="modal" data-target="#myModal">Custom themes<i class="glyphicon glyphicon-chevron-down"></i></button>
+	  	  <button href="#" type="button" type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">Custom themes<i class="glyphicon glyphicon-chevron-down"></i></button>
   		</div>
   	</div> <!-- /Video -->
   </section>

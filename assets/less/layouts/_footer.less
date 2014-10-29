@@ -1,10 +1,8 @@
 footer { 
 	
-	padding-bottom: 164px;
+	padding-bottom: 36px;
 	
-	@media (min-width: @screen-xs-min) {
-			  padding-bottom: 32px;
-		  }	
+		
 	
 	.upper-col {
 		background-color: @gray-darker;
@@ -15,11 +13,19 @@ footer {
 	}
 	
 	.bracket {
-		padding-top: 40px;
+		margin-top: 32px;
+		
+		@media (min-width: @screen-md-min) {
+				  margin-top: 60px;
+			  }	
 	}
 		
 	.bottom-opt {
-		padding: 80px 42px;
+		padding: 48px 0 0 42px;
+		
+		@media (min-width: @screen-md-min) {
+				  padding: 48px 0 0 42px;
+			  }	
 			
 		h2, h4 {
 			color: #fff;
@@ -34,9 +40,17 @@ footer {
 		form {
 			padding-top: 20px;
 			
+			.opt-btn {
+				text-align: center;
+				
+				@media (min-width: @screen-sm-min) {
+				  text-align: left;
+			  }		
+			}
+			
 			.btn {
 				margin: 24px 0;
-			}
+			}	
 		}
 	}
 		
