@@ -36,10 +36,10 @@
   		</div>
   	</div> <!-- /Video -->
   </section>
-  
+
   <hr class="half-rule">
   	<h4 class="pick-site">Pick one:</h4>
-  
+
   <section class="products">
 	  <div class="row">
 		  <div class="col-sm-4 col-xs-12 text-center">
