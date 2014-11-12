@@ -1,5 +1,5 @@
 <?php get_template_part('templates/head'); ?>
-<body <?php body_class(); ?>>
+<body data-spy="scroll" <?php body_class(); ?>>
 
   <!--[if lt IE 8]>
     <div class="alert alert-warning">
@@ -32,14 +32,14 @@
 	      <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 	  	    <h1>We build sexy Wordpress sites that are <span class="highlight">damn fast</span>.</h1>
 	  	    <h3>Either we'll do it for you, or we'll teach you how.</h2>
-	  	  <button href="#" type="button" type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">Custom themes<i class="glyphicon glyphicon-chevron-down"></i></button>
+	  	  <a href="#products" rel='m_PageScroll2id' type="button" type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">Custom themes<i class="glyphicon glyphicon-chevron-down"></i></a>
   		</div>
   	</div> <!-- /Video -->
   </section>
-  
+
   <hr class="half-rule">
-  	<h4 class="pick-site">Pick one:</h4>
-  
+  	<h4 id="products" class="pick-site">Pick one:</h4>
+
   <section class="products">
 	  <div class="row">
 		  <div class="col-sm-4 col-xs-12 text-center">

@@ -1,0 +1,53 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/masoninthesis/Sites/vagrantpress-master/wordpress/wp-content/themes/Jackalope-io',
+5 verbose install   [] ]
+6 info preinstall roots@7.0.1
+7 verbose readDependencies using package.json deps
+8 silly resolved []
+9 info build /Users/masoninthesis/Sites/vagrantpress-master/wordpress/wp-content/themes/Jackalope-io
+10 verbose linkStuff [ false,
+10 verbose linkStuff   false,
+10 verbose linkStuff   false,
+10 verbose linkStuff   '/Users/masoninthesis/Sites/vagrantpress-master/wordpress/wp-content/themes' ]
+11 info linkStuff roots@7.0.1
+12 verbose linkBins roots@7.0.1
+13 verbose linkMans roots@7.0.1
+14 verbose rebuildBundles roots@7.0.1
+15 verbose rebuildBundles [ '.bin',
+15 verbose rebuildBundles   'bower',
+15 verbose rebuildBundles   'grunt',
+15 verbose rebuildBundles   'grunt-autoprefixer',
+15 verbose rebuildBundles   'grunt-contrib-concat',
+15 verbose rebuildBundles   'grunt-contrib-jshint',
+15 verbose rebuildBundles   'grunt-contrib-less',
+15 verbose rebuildBundles   'grunt-contrib-uglify',
+15 verbose rebuildBundles   'grunt-contrib-watch',
+15 verbose rebuildBundles   'grunt-modernizr',
+15 verbose rebuildBundles   'grunt-wp-assets',
+15 verbose rebuildBundles   'load-grunt-tasks',
+15 verbose rebuildBundles   'time-grunt' ]
+16 info install roots@7.0.1
+17 info postinstall roots@7.0.1
+18 verbose unsafe-perm in lifecycle true
+19 info roots@7.0.1 Failed to exec postinstall script
+20 error roots@7.0.1 postinstall: `node node_modules/bower/bin/bower install && grunt dev`
+20 error Exit status 6
+21 error Failed at the roots@7.0.1 postinstall script.
+21 error This is most likely a problem with the roots package,
+21 error not with npm itself.
+21 error Tell the author that this fails on your system:
+21 error     node node_modules/bower/bin/bower install && grunt dev
+21 error You can get their info via:
+21 error     npm owner ls roots
+21 error There is likely additional logging output above.
+22 error System Darwin 14.0.0
+23 error command "node" "/usr/local/bin/npm" "install"
+24 error cwd /Users/masoninthesis/Sites/vagrantpress-master/wordpress/wp-content/themes/Jackalope-io
+25 error node -v v0.10.33
+26 error npm -v 1.4.28
+27 error code ELIFECYCLE
+28 verbose exit [ 1, true ]
